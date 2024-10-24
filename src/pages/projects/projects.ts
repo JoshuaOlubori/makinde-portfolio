@@ -12,10 +12,10 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    name: 'Devaradise.com',
-    description: 'A blog that sharing web development resources and tutorials',
-    demoLink: 'https://devaradise.com',
-    tags: ['Blog']
+    name: 'Ripe Orange Plucking Robot',
+    description: 'Developed an AI-powered robotic system to identify and pluck ripe oranges autonomously, recognized on social media by the Minister of Communication, Innovation, and Digital Economy',
+    demoLink: '#',
+    tags: ['Computer Vision']
   },
   {
     name: 'Sellercraft App',
