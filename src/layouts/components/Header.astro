@@ -6,7 +6,11 @@ import GithubWhite from '@src/assets/img/github-mark-white.svg';
 import GithubBlack from '@src/assets/img/github-mark.svg';
 import MediumLightLogo from '@src/assets/img/medium-icon.svg';
 import MediumDarkLogo from '@src/assets/img/medium-dark.svg';
+import LinkedInLightLogo from '@src/assets/img/linkedin-lightmode.svg';
+import LinkedInDarkLogo from '@src/assets/img/linkedin-dark.jpg';
 
+import TwitterLightLogo from '@src/assets/img/twitter-light.svg';
+import TwitterDarkLogo from '@src/assets/img/twitter-dark.webp';
 
 const menu = [
   {
@@ -56,6 +60,20 @@ const menu = [
 				<a class='p-3 hidden dark:block' href='https://medium.com/@mkmworld' target='_blank'
 					><Image src={MediumDarkLogo} width={24} height={24} alt='Medium logo' /></a
 				>
+
+				<a class='p-3 dark:hidden' href='https://www.linkedin.com/in/kayode-makinde-4b0b491ba/d' target='_blank'
+					><Image src={LinkedInLightLogo} width={24} height={24} alt='LinkedIn logo' /></a
+				>
+				<a class='p-3 hidden dark:block' href='https://www.linkedin.com/in/kayode-makinde-4b0b491ba/d' target='_blank'
+					><Image src={LinkedInDarkLogo} width={24} height={24} alt='LinkedIn logo' /></a
+				>
+
+				<a class='p-3 dark:hidden' href='https://x.com/Mkm_world' target='_blank'
+				><Image src={TwitterLightLogo} width={24} height={24} alt='LinkedIn logo' /></a
+			>
+			<a class='p-3 hidden dark:block' href='https://x.com/Mkm_world' target='_blank'
+				><Image src={TwitterDarkLogo} width={24} height={24} alt='LinkedIn logo' /></a
+			>
 				<button class='p-3' id='themeToggle' aria-label='Theme mode'>
 					<svg
 						class='sun'
